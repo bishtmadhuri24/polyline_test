@@ -1,8 +1,40 @@
-# polyline_test
+# 📍 Flutter Polyline Renderer
 
-# 🚀 Flutter Polyline Animation App
+This Flutter application reads GPS coordinate data from a local JSON file and displays:
+- A **polyline route**
+- **Markers** at each point
+- **Circles** representing location accuracy  
+on an interactive map using the `flutter_map` package.
 
-This Flutter project renders animated polylines between multiple points on a Google Map and fulfills a requirement to render the polyline within **1 second** after loading.
+---
+
+## 🚀 Features
+
+- Read location data from a `.json` file
+- Plot polyline route from points
+- Draw accuracy-based circles around each point
+- Render everything on-screen **within 1 second**
+- State managed using `flutter_bloc`
+
+---
+
+## 🧰 Packages Used
+
+| Package           | Purpose                          |
+|------------------|----------------------------------|
+| flutter_bloc      | State management                 |
+| flutter_map       | Map rendering with tiles         |
+| latlong2          | Support for LatLng objects       |
+
+Add to `pubspec.yaml`:
+
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^9.1.1
+  bloc: ^9.0.0
+  flutter_map: ^8.1.1
 
 ---
 
