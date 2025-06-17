@@ -1,3 +1,3 @@
-abstract class MapEvent {}
+abstract class MapsEvent {}
 
-class LoadPolylineEvent extends MapEvent {}
+class LoadPolylineEvent extends MapsEvent {}
