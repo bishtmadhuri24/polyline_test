@@ -11,6 +11,10 @@ This Flutter project renders animated polylines between multiple points on a Goo
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/bishtmadhuri24/polyline_test
+
+   flutter pub get
+
+   flutter run
    
 
 ## Getting Started
